@@ -12,7 +12,12 @@ public class Main {
 			//cb.modificarCredito(1000);
 			//cb.solicitarPrestamo(1000);
 			//cb.obtenerPrestamo();//debe retornar 450
-			
+			cb.agregarSaldo(8000);
+			cb.agregarSaldo(500);
+			cb.solicitarPrestamo(10000);
+			cb.retirarSaldo(1500);
+			cb.agregarSaldo(500);
+			cb.solicitarPrestamo(4000);
 		} catch (Exception e) {
 		}
 	}
